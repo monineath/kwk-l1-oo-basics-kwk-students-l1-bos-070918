@@ -3,8 +3,8 @@ class Shoe
  attr_reader :brand
  attr_accessor :color, :size, :material, :condition
   
-  def initialize(dbfjhdsf)
-    @brand = dbfjhdsf
+  def initialize(brand)
+    @brand = brand
   end
   
 end
@@ -12,3 +12,6 @@ end
   adidas = Shoe.new("Adidas")
   
 puts adidas.brand
+puts adidas.color 
+adidas.color = "red"
+adidas.brand = "Nike"
