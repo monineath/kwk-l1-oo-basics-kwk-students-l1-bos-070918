@@ -13,5 +13,4 @@ end
   
 puts adidas.brand
 puts adidas.color 
-adidas.color = "red"
-puts adidas.brand = "Nike"
+
