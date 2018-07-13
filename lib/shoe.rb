@@ -14,4 +14,4 @@ end
 puts adidas.brand
 puts adidas.color 
 adidas.color = "red"
-adidas.brand = "Nike"
+puts adidas.brand = "Nike"
